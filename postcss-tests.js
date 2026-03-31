@@ -2,7 +2,7 @@
 /*eslint-disable no-process-exit,strict*/
 
 var postcssPlugin = require('./postcss-plugin');
-var sass = require('node-sass');
+var sass = require('sass');
 
 var data = {
 	':container( MIN-WIDTH : 100.00px )': '.\\:container\\(min-width\\:100\\.00px\\)',
